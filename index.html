@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Windows Calculator</title>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="calc-container">
+        <div class="visor">
+          <span class="span-visor"></span>
+          <input type="text" class="input-visor" />
+        </div>
+
+        <div class="buttons">
+          <ul class="line1">
+            <button class="calc-button dark" id="percent">%</button>
+            <button class="calc-button dark">CE</button>
+            <button class="calc-button dark" id="clear">C</button>
+            <button class="calc-button dark" id="backspace">⌫</button>
+          </ul>
+          <ul class="line2">
+            <button class="calc-button dark operator">1/x</button>
+            <button class="calc-button dark operator">x²</button>
+            <button class="calc-button dark operator">²√x</button>
+            <button class="calc-button dark operator" id="division">÷</button>
+          </ul>
+          <ul class="line3">
+            <button class="calc-button light num">7</button>
+            <button class="calc-button light num">8</button>
+            <button class="calc-button light num">9</button>
+            <button class="calc-button dark operator" id="multiplication">x</button>
+          </ul>
+          <ul class="line4">
+            <button class="calc-button light num">4</button>
+            <button class="calc-button light num">5</button>
+            <button class="calc-button light num">6</button>
+            <button class="calc-button dark operator" id="subtraction">-</button>
+          </ul>
+          <ul class="line5">
+            <button class="calc-button light num">1</button>
+            <button class="calc-button light num">2</button>
+            <button class="calc-button light num">3</button>
+            <button class="calc-button dark operator" id="addition">+</button>
+          </ul>
+          <ul class="line6">
+            <button class="calc-button light operator">+/-</button>
+            <button class="calc-button light num">0</button>
+            <button class="calc-button light num">,</button>
+            <button class="calc-button result" id="equal">=</button>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
