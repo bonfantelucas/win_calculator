@@ -2,6 +2,7 @@ Esse projeto foi uma tentativa de recriar a calculadora padrão do Windows, a fi
 
 Algumas funcionalidades ainda não foram desenvolvidas/concluídas, futuramente talvez venha a finalizá-las.
 
+
 💻> Tecnologias Utilizadas:
 <p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="30" height="30"/>
